@@ -1,5 +1,14 @@
 # 🛒 ShopSphere E-Commerce SQL Case Study
 
+## 🛠️ Tools Used
+
+- MariaDB
+- SQL
+- Power BI
+- Power Query
+- DAX
+- GitHub
+
 ## 📌 Project Overview
 
 ShopSphere is an AI-assisted e-commerce database and SQL analytics case study built using MariaDB.
@@ -54,3 +63,81 @@ AI was used as a development assistant for:
 The generated data was not simply accepted as correct. I manually executed and tested the SQL queries in **MariaDB**, validated table relationships and row counts, investigated unexpected results, corrected SQL errors, and analyzed the final outputs.
 
 This project demonstrates how **SQL knowledge and AI-assisted workflows can be combined to efficiently design, generate, validate, and analyze a relational e-commerce database at scale.**
+
+## 📊 Power BI Dashboard
+
+To extend the SQL analysis, I built an interactive **4-page Power BI dashboard** connected to the ShopSphere MariaDB database.
+
+The dashboard transforms the SQL case study into an interactive business intelligence report with KPI tracking, product analysis, customer analysis, order trends, payment performance, and geographic insights.
+
+### Dashboard Pages
+
+#### 1. Executive Overview
+- Total Revenue
+- Total Profit
+- Total Orders
+- Average Order Value
+- Profit Margin
+- Monthly Revenue Trend
+- Revenue & Profit by Category
+- Top Products by Revenue
+- Order Status Distribution
+
+![Executive Overview](powerbi/Executive_Overview.png)
+
+#### 2. Product & Category Analysis
+- Top Products by Profit
+- Top Products by Quantity Sold
+- Product Profit Margin
+- Average Product Rating
+- Category Profit Margin
+- Interactive Year, Category, and Product filters
+
+![Product & Category Analysis](powerbi/Product_Category_Analysis.png)
+
+#### 3. Customer Analysis
+- Top Customers by Total Spend
+- Top Customers by Average Order Value
+- Top Customers by Order Count
+- Customer Distribution by Gender
+- Customers by State
+
+![Customer Analysis](powerbi/Customer_Analysis.png)
+
+#### 4. Orders & Payments Analysis
+- Payment Amount by Method
+- Payment Status Distribution
+- Orders by Shipping State
+- Top Shipping Cities
+- Order Status vs Payment Status
+- Interactive Year, Shipping State, and Payment Method filters
+
+![Orders & Payments Analysis](powerbi/Orders_Payments_Analysis.png)
+
+### Power BI Features Used
+
+- DAX Measures
+- Data Modeling & Relationships
+- Power Query
+- Date Table
+- KPI Cards
+- Interactive Slicers
+- Synced Slicers
+- Page Navigation
+- Top N Filtering
+- Drill-down capable visuals
+- Custom Dashboard Theme & Background Design
+
+### Key DAX Measures
+
+- Total Revenue
+- Total Profit
+- Total Orders
+- Average Order Value
+- Customer AOV
+- Profit Margin %
+- Analyzed Orders
+
+### Dashboard File
+
+The Power BI `.pbix` file is available in the [`powerbi`](powerbi/) folder.
