@@ -20,49 +20,90 @@ The database contains more than **28,000 business records** across customers, or
 The project demonstrates both traditional SQL/data-analysis skills and the practical use of AI as a development assistant for database design, synthetic data generation, debugging, and analytical workflow development.
 
 
-## 🤖 AI-Assisted Database Design & Data Generation
+## 🤖 AI-Assisted Development
 
-A key part of this project was building a complete relational e-commerce database from scratch rather than working with a ready-made Kaggle dataset.
+AI was used as a development assistant throughout the project to make the workflow more efficient and easier to understand.
 
-I designed the **ShopSphere database structure** to simulate a real-world e-commerce environment, including relationships between:
+AI helped with:
 
-- Customers
-- Orders
-- Order Items
-- Products
-- Categories
-- Payments
-- Reviews
+- Planning parts of the database structure
+- Generating and organizing synthetic data
+- Explaining SQL errors and debugging queries
+- Suggesting analysis ideas
+- Structuring the Power BI dashboard
+- Explaining Python and machine learning concepts
+- Reviewing K-Means clustering steps and results
+- Organizing the GitHub documentation
 
-To efficiently create a dataset large enough for meaningful SQL analysis, I used **AI-assisted development** to help design and generate synthetic data.
+All SQL queries, Power BI visuals, Python code, model execution, validation, and analysis were run and reviewed manually as part of the project.
 
-The final database contained:
+## 🤖 Machine Learning – Customer Segmentation
 
-| Table | Records |
-|---|---:|
-| Customers | 1,000 |
-| Orders | 5,000 |
-| Order Items | 10,000 |
-| Payments | 5,000 |
-| Reviews | 2,000 |
-| Products | 20 |
-| Categories | 7 |
-| Numbers Helper Table | 10,000 |
+To extend the ShopSphere analytics project beyond SQL and Power BI, I built a customer segmentation model using **K-Means clustering** in Python.
 
-Instead of manually inserting thousands of records, a helper `numbers` table and SQL-based generation techniques were used to create data at scale.
+### ML Objective
 
-AI was used as a development assistant for:
+The goal was to group customers based on purchasing behavior using RFM-style features:
 
-- Planning the relational database structure
-- Generating synthetic e-commerce data
-- Developing and improving SQL queries
-- Debugging incorrect joins and calculations
-- Organizing the analysis workflow
-- Reviewing data-quality issues
+- **Recency** – days since the customer's most recent order
+- **Frequency** – number of orders placed
+- **Monetary** – total customer spend
 
-The generated data was not simply accepted as correct. I manually executed and tested the SQL queries in **MariaDB**, validated table relationships and row counts, investigated unexpected results, corrected SQL errors, and analyzed the final outputs.
+The final ML dataset contained **989 customers** with valid transaction history.
 
-This project demonstrates how **SQL knowledge and AI-assisted workflows can be combined to efficiently design, generate, validate, and analyze a relational e-commerce database at scale.**
+### Data Preparation
+
+Before clustering, I:
+
+- Checked missing values and duplicates
+- Reviewed feature distributions and outliers
+- Applied `log1p()` transformation to reduce skew
+- Standardized features using `StandardScaler`
+
+### Choosing the Number of Clusters
+
+I evaluated different cluster counts using:
+
+- Elbow Method
+- Silhouette Score
+- Business interpretability
+
+Although **K = 2** produced the highest silhouette score, **K = 4** was selected because it produced more useful and interpretable customer groups.
+
+### Final Customer Segments
+
+| Segment | Customers | Avg Recency | Avg Orders | Avg Spend |
+| --- | ---: | ---: | ---: | ---: |
+| Recent Customers | 176 | 17.66 days | 4.68 | ₹38,905 |
+| Cooling Customers | 373 | 206.29 days | 3.55 | ₹31,062 |
+| High-Value Loyal Customers | 301 | 104.33 days | 6.49 | ₹63,488 |
+| Inactive Low-Value Customers | 139 | 307.46 days | 1.64 | ₹10,362 |
+
+### Power BI ML Integration
+
+The final customer segments were exported from Python and imported back into Power BI.
+
+A new **Customer Segmentation** page was added with:
+
+- Customers by Segment
+- Average Spend by Segment
+- Average Orders by Segment
+- Average Recency by Segment
+- Frequency vs Spend scatter plot
+- Customer Segment slicer
+
+![Customer Segmentation](powerbi/Customer_Segmentation.png)
+
+### ML Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- K-Means Clustering
+- StandardScaler
+- Power BI
 
 ## 📊 Power BI Dashboard
 
