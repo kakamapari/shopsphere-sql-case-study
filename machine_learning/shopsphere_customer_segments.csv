@@ -1,0 +1,990 @@
+customer_id,customer_name,recency_days,frequency,monetary,cluster,segment
+1,Priya Verma,53,5,54618.9,2,High-Value Loyal Customers
+2,Rahul Sharma,54,2,4289.99,3,Inactive Low-Value Customers
+3,Vikram Iyer,509,3,38974.58,1,Cooling Customers
+4,Vikram Patel,175,7,67919.21,2,High-Value Loyal Customers
+5,Nikhil Joshi,129,6,55643.79,2,High-Value Loyal Customers
+7,Meera Joshi,17,4,15383.24,0,Recent Customers
+8,Rohan Sharma,77,6,32962.25,2,High-Value Loyal Customers
+9,Ananya Mehta,79,5,63931.95,2,High-Value Loyal Customers
+10,Rohan Singh,208,4,44434.85,1,Cooling Customers
+11,Vikram Shah,104,1,6396.7,3,Inactive Low-Value Customers
+12,Meera Iyer,395,5,28540.61,1,Cooling Customers
+13,Pooja Gupta,195,2,33136.27,1,Cooling Customers
+14,Isha Sharma,96,1,7265.49,3,Inactive Low-Value Customers
+15,Meera Kumar,49,3,28569.8,1,Cooling Customers
+16,Meera Patel,37,5,63797.46,2,High-Value Loyal Customers
+17,Aditya Kumar,166,9,109299.12,2,High-Value Loyal Customers
+18,Ananya Singh,304,1,3991.29,3,Inactive Low-Value Customers
+19,Ananya Joshi,114,3,22368.38,1,Cooling Customers
+20,Ananya Verma,415,3,20732.21,1,Cooling Customers
+21,Priya Shah,125,3,44833.13,1,Cooling Customers
+22,Vikram Mehta,240,4,44601.52,1,Cooling Customers
+23,Ananya Gupta,143,6,46620.28,2,High-Value Loyal Customers
+24,Nikhil Mehta,200,6,89379.3,2,High-Value Loyal Customers
+25,Nikhil Iyer,420,5,54937.48,1,Cooling Customers
+26,Ananya Mehta,60,2,16059.19,3,Inactive Low-Value Customers
+27,Ananya Joshi,102,6,82997.24,2,High-Value Loyal Customers
+28,Priya Mehta,91,5,52656.36,2,High-Value Loyal Customers
+29,Pooja Mehta,49,4,48637.03,2,High-Value Loyal Customers
+30,Sneha Shah,264,4,33116.19,1,Cooling Customers
+31,Meera Joshi,7,6,66337.54,0,Recent Customers
+32,Isha Sharma,131,3,20510.83,1,Cooling Customers
+33,Rahul Patel,197,9,62383.83,2,High-Value Loyal Customers
+34,Pooja Joshi,73,4,41289.71,1,Cooling Customers
+35,Aditya Iyer,86,3,21489.1,1,Cooling Customers
+37,Meera Gupta,22,4,16751.42,0,Recent Customers
+38,Priya Patel,68,6,50917.05,2,High-Value Loyal Customers
+39,Nikhil Sharma,39,4,30411.7,0,Recent Customers
+40,Sneha Singh,258,4,56922.18,1,Cooling Customers
+41,Neha Iyer,24,3,20163.28,0,Recent Customers
+42,Amit Patel,139,7,48674.96,2,High-Value Loyal Customers
+43,Priya Sharma,302,4,48222.26,1,Cooling Customers
+44,Rahul Joshi,38,5,15697.12,0,Recent Customers
+45,Aditya Iyer,596,1,2331.77,3,Inactive Low-Value Customers
+46,Rohan Verma,51,3,20842.57,1,Cooling Customers
+47,Isha Kumar,61,5,36053.96,2,High-Value Loyal Customers
+48,Sneha Verma,269,3,32491.74,1,Cooling Customers
+49,Rahul Kumar,70,8,45033.51,2,High-Value Loyal Customers
+50,Nikhil Iyer,12,3,36567.44,0,Recent Customers
+51,Ananya Patel,83,5,72462.59,2,High-Value Loyal Customers
+52,Rohan Kumar,310,1,4372.65,3,Inactive Low-Value Customers
+53,Priya Kumar,43,6,91894.43,2,High-Value Loyal Customers
+54,Arjun Singh,271,2,3455.3,3,Inactive Low-Value Customers
+55,Isha Shah,38,11,113308.7,2,High-Value Loyal Customers
+56,Nikhil Joshi,21,4,52650.26,0,Recent Customers
+57,Karan Joshi,284,3,46509.12,1,Cooling Customers
+58,Karan Gupta,174,6,26758.34,1,Cooling Customers
+59,Aditya Mehta,182,7,35195.89,2,High-Value Loyal Customers
+60,Amit Kumar,94,3,31424.57,1,Cooling Customers
+61,Aditya Kumar,23,3,29594.45,0,Recent Customers
+62,Pooja Shah,118,7,50330.0,2,High-Value Loyal Customers
+63,Amit Kumar,2,4,40473.2,0,Recent Customers
+64,Isha Patel,294,2,48364.56,1,Cooling Customers
+65,Aditya Joshi,308,4,29916.07,1,Cooling Customers
+66,Karan Joshi,291,3,31692.87,1,Cooling Customers
+67,Isha Verma,165,4,49484.54,1,Cooling Customers
+68,Ananya Verma,124,4,26391.01,1,Cooling Customers
+69,Sneha Sharma,116,7,56564.81,2,High-Value Loyal Customers
+70,Priya Joshi,199,6,83663.77,2,High-Value Loyal Customers
+71,Amit Shah,503,2,29962.56,1,Cooling Customers
+72,Sneha Kumar,268,4,28582.9,1,Cooling Customers
+73,Rohan Mehta,92,6,56308.05,2,High-Value Loyal Customers
+74,Amit Shah,82,4,53751.46,2,High-Value Loyal Customers
+75,Amit Kumar,13,5,28059.08,0,Recent Customers
+76,Pooja Mehta,265,4,26385.43,1,Cooling Customers
+77,Rahul Singh,57,8,54400.89,2,High-Value Loyal Customers
+78,Neha Singh,494,4,27513.8,1,Cooling Customers
+79,Neha Gupta,124,7,67421.38,2,High-Value Loyal Customers
+80,Isha Gupta,121,4,47259.11,1,Cooling Customers
+81,Sneha Singh,9,8,80201.5,0,Recent Customers
+82,Amit Verma,154,6,41614.89,2,High-Value Loyal Customers
+83,Pooja Iyer,68,8,87690.44,2,High-Value Loyal Customers
+84,Meera Sharma,82,4,39324.81,1,Cooling Customers
+85,Neha Iyer,31,5,31013.88,0,Recent Customers
+86,Neha Shah,121,4,57697.74,1,Cooling Customers
+87,Priya Iyer,139,6,44484.71,2,High-Value Loyal Customers
+88,Pooja Sharma,62,2,9697.89,3,Inactive Low-Value Customers
+89,Isha Shah,200,6,39948.37,2,High-Value Loyal Customers
+90,Pooja Mehta,353,2,38089.24,1,Cooling Customers
+91,Vikram Gupta,41,5,67734.32,2,High-Value Loyal Customers
+92,Isha Singh,9,8,91171.08,0,Recent Customers
+93,Ananya Shah,124,4,55008.5,1,Cooling Customers
+94,Ananya Gupta,134,5,47685.8,2,High-Value Loyal Customers
+95,Nikhil Sharma,465,2,20018.22,3,Inactive Low-Value Customers
+96,Karan Gupta,207,4,63611.09,1,Cooling Customers
+97,Meera Singh,70,4,19785.66,1,Cooling Customers
+98,Meera Iyer,197,3,22536.17,1,Cooling Customers
+99,Isha Joshi,4,4,46435.49,0,Recent Customers
+100,Nikhil Kumar,73,10,89325.8,2,High-Value Loyal Customers
+101,Meera Sharma,36,4,29154.22,0,Recent Customers
+102,Arjun Gupta,263,2,8107.78,3,Inactive Low-Value Customers
+103,Amit Joshi,393,3,31327.22,1,Cooling Customers
+104,Rahul Singh,217,5,14855.44,1,Cooling Customers
+105,Aditya Kumar,199,4,61113.53,1,Cooling Customers
+106,Aditya Verma,114,4,33402.2,1,Cooling Customers
+107,Vikram Shah,57,4,31406.26,1,Cooling Customers
+108,Neha Patel,64,3,11309.75,1,Cooling Customers
+109,Karan Sharma,393,2,8371.85,3,Inactive Low-Value Customers
+110,Priya Shah,178,4,42730.92,1,Cooling Customers
+111,Aditya Iyer,41,4,21963.05,0,Recent Customers
+112,Priya Kumar,192,4,32459.56,1,Cooling Customers
+113,Aditya Verma,128,6,43145.88,2,High-Value Loyal Customers
+114,Rohan Singh,37,7,51202.22,2,High-Value Loyal Customers
+115,Karan Joshi,106,5,55862.88,2,High-Value Loyal Customers
+116,Rohan Iyer,149,5,38989.84,1,Cooling Customers
+117,Rahul Kumar,68,2,24106.38,1,Cooling Customers
+118,Meera Mehta,239,5,29515.69,1,Cooling Customers
+119,Isha Joshi,72,5,37278.67,2,High-Value Loyal Customers
+120,Nikhil Shah,143,4,33631.12,1,Cooling Customers
+121,Neha Mehta,2,8,94993.58,0,Recent Customers
+122,Aditya Singh,161,7,69294.16,2,High-Value Loyal Customers
+123,Arjun Sharma,216,2,5071.77,3,Inactive Low-Value Customers
+124,Aditya Kumar,259,4,18853.15,1,Cooling Customers
+125,Ananya Joshi,101,5,24852.71,1,Cooling Customers
+126,Aditya Gupta,263,6,41222.82,2,High-Value Loyal Customers
+127,Meera Iyer,6,2,21127.69,0,Recent Customers
+128,Arjun Kumar,68,5,77407.63,2,High-Value Loyal Customers
+129,Aditya Patel,179,5,25459.62,1,Cooling Customers
+130,Rahul Shah,133,4,11383.17,1,Cooling Customers
+131,Neha Joshi,165,5,30615.02,1,Cooling Customers
+132,Meera Patel,142,8,54860.43,2,High-Value Loyal Customers
+133,Nikhil Iyer,28,6,51732.8,2,High-Value Loyal Customers
+134,Amit Shah,30,6,94520.07,2,High-Value Loyal Customers
+135,Amit Iyer,642,2,25744.84,1,Cooling Customers
+136,Arjun Kumar,237,10,79293.16,2,High-Value Loyal Customers
+137,Amit Gupta,185,2,7049.64,3,Inactive Low-Value Customers
+138,Sneha Gupta,123,6,48242.24,2,High-Value Loyal Customers
+139,Arjun Joshi,186,1,32232.24,3,Inactive Low-Value Customers
+140,Amit Patel,111,1,30498.22,3,Inactive Low-Value Customers
+141,Rohan Patel,160,4,25770.67,1,Cooling Customers
+142,Ananya Gupta,201,4,23087.44,1,Cooling Customers
+143,Pooja Patel,316,1,14174.1,3,Inactive Low-Value Customers
+144,Nikhil Verma,95,2,15244.53,3,Inactive Low-Value Customers
+145,Sneha Kumar,71,9,80309.77,2,High-Value Loyal Customers
+146,Karan Verma,530,2,7882.25,3,Inactive Low-Value Customers
+147,Rohan Verma,47,6,80232.2,2,High-Value Loyal Customers
+148,Meera Verma,33,7,58787.33,2,High-Value Loyal Customers
+149,Sneha Verma,251,3,50560.71,1,Cooling Customers
+150,Meera Iyer,261,2,25694.41,1,Cooling Customers
+151,Neha Iyer,92,5,45111.74,2,High-Value Loyal Customers
+152,Karan Joshi,135,4,40827.88,1,Cooling Customers
+153,Karan Kumar,73,7,45931.01,2,High-Value Loyal Customers
+154,Isha Patel,66,6,40407.79,2,High-Value Loyal Customers
+155,Amit Iyer,357,2,20938.64,1,Cooling Customers
+156,Ananya Sharma,37,6,32254.69,0,Recent Customers
+157,Isha Gupta,28,6,64000.38,2,High-Value Loyal Customers
+158,Nikhil Mehta,92,3,15395.72,1,Cooling Customers
+159,Karan Joshi,287,4,12305.11,1,Cooling Customers
+160,Meera Patel,156,5,17576.62,1,Cooling Customers
+161,Isha Shah,284,5,27187.68,1,Cooling Customers
+162,Isha Sharma,285,7,89699.42,2,High-Value Loyal Customers
+163,Isha Joshi,1,7,101900.48,0,Recent Customers
+164,Aditya Sharma,54,2,18434.08,1,Cooling Customers
+165,Pooja Sharma,7,8,66261.18,0,Recent Customers
+166,Pooja Gupta,521,2,33621.15,1,Cooling Customers
+167,Karan Shah,180,4,38540.15,1,Cooling Customers
+168,Meera Joshi,227,7,49817.21,2,High-Value Loyal Customers
+169,Amit Gupta,11,6,44342.59,0,Recent Customers
+170,Amit Verma,375,2,30516.03,1,Cooling Customers
+171,Ananya Verma,74,6,71541.63,2,High-Value Loyal Customers
+172,Neha Mehta,198,4,43945.18,1,Cooling Customers
+173,Vikram Kumar,179,4,26408.2,1,Cooling Customers
+174,Sneha Gupta,23,6,34940.14,0,Recent Customers
+175,Vikram Mehta,14,3,22936.53,0,Recent Customers
+176,Ananya Kumar,88,4,59850.99,2,High-Value Loyal Customers
+177,Sneha Mehta,262,6,43124.63,2,High-Value Loyal Customers
+178,Isha Patel,498,3,26315.18,1,Cooling Customers
+179,Neha Shah,5,4,43296.06,0,Recent Customers
+180,Pooja Iyer,251,2,12316.07,3,Inactive Low-Value Customers
+181,Rohan Verma,23,9,50006.49,2,High-Value Loyal Customers
+182,Aditya Kumar,14,9,81947.93,2,High-Value Loyal Customers
+183,Meera Verma,380,4,21830.7,1,Cooling Customers
+184,Karan Iyer,52,3,33559.59,1,Cooling Customers
+185,Pooja Verma,13,6,44021.66,0,Recent Customers
+186,Isha Joshi,20,6,62359.74,0,Recent Customers
+187,Sneha Iyer,331,3,21833.45,1,Cooling Customers
+188,Sneha Patel,6,6,58852.27,0,Recent Customers
+189,Sneha Gupta,111,1,7258.46,3,Inactive Low-Value Customers
+190,Neha Kumar,179,5,61179.95,2,High-Value Loyal Customers
+191,Priya Singh,317,5,32804.52,1,Cooling Customers
+192,Nikhil Joshi,322,3,17394.19,1,Cooling Customers
+193,Rahul Joshi,194,5,77008.56,2,High-Value Loyal Customers
+194,Sneha Shah,295,3,24217.34,1,Cooling Customers
+195,Priya Sharma,82,3,30209.76,1,Cooling Customers
+196,Rohan Kumar,377,5,43373.39,1,Cooling Customers
+197,Nikhil Verma,184,4,49504.85,1,Cooling Customers
+198,Arjun Shah,13,7,34387.16,0,Recent Customers
+199,Arjun Gupta,430,2,10973.13,3,Inactive Low-Value Customers
+200,Pooja Sharma,220,5,41852.44,1,Cooling Customers
+201,Karan Singh,39,4,24793.32,0,Recent Customers
+202,Meera Kumar,720,2,19706.5,3,Inactive Low-Value Customers
+203,Ananya Gupta,279,4,11610.29,1,Cooling Customers
+204,Sneha Shah,66,7,80202.17,2,High-Value Loyal Customers
+205,Sneha Mehta,84,2,4401.58,3,Inactive Low-Value Customers
+206,Aditya Singh,201,3,10009.0,3,Inactive Low-Value Customers
+207,Meera Gupta,471,2,24375.16,1,Cooling Customers
+208,Pooja Kumar,52,5,40097.59,2,High-Value Loyal Customers
+209,Meera Gupta,216,3,33357.91,1,Cooling Customers
+210,Sneha Patel,7,3,24801.99,0,Recent Customers
+211,Pooja Mehta,22,3,14251.13,0,Recent Customers
+212,Aditya Mehta,8,6,63015.04,0,Recent Customers
+213,Rahul Sharma,75,6,71241.26,2,High-Value Loyal Customers
+214,Sneha Sharma,9,5,55943.0,0,Recent Customers
+215,Arjun Verma,65,3,49775.95,1,Cooling Customers
+216,Arjun Shah,368,3,24300.93,1,Cooling Customers
+217,Sneha Joshi,53,7,60921.52,2,High-Value Loyal Customers
+218,Karan Sharma,45,9,102816.36,2,High-Value Loyal Customers
+219,Rohan Mehta,350,3,28324.4,1,Cooling Customers
+220,Priya Verma,70,3,11093.88,1,Cooling Customers
+221,Pooja Kumar,334,3,28127.36,1,Cooling Customers
+222,Vikram Gupta,32,5,52540.69,0,Recent Customers
+223,Karan Gupta,244,2,5667.28,3,Inactive Low-Value Customers
+224,Meera Joshi,15,4,21094.73,0,Recent Customers
+225,Nikhil Shah,173,5,59342.86,2,High-Value Loyal Customers
+226,Vikram Joshi,13,7,59083.55,0,Recent Customers
+227,Priya Kumar,76,10,90883.65,2,High-Value Loyal Customers
+228,Nikhil Shah,80,2,17958.45,1,Cooling Customers
+229,Meera Mehta,224,9,88072.0,2,High-Value Loyal Customers
+230,Amit Shah,93,6,29507.86,2,High-Value Loyal Customers
+231,Arjun Gupta,131,2,27782.76,1,Cooling Customers
+232,Amit Mehta,39,9,75412.98,2,High-Value Loyal Customers
+233,Priya Mehta,139,3,38156.08,1,Cooling Customers
+234,Ananya Joshi,191,5,38589.72,1,Cooling Customers
+235,Pooja Gupta,191,3,40151.59,1,Cooling Customers
+236,Ananya Sharma,143,5,32605.59,1,Cooling Customers
+238,Pooja Sharma,101,3,42045.3,1,Cooling Customers
+239,Aditya Sharma,43,5,17381.75,0,Recent Customers
+240,Arjun Kumar,469,6,37288.43,1,Cooling Customers
+241,Priya Kumar,199,3,29630.19,1,Cooling Customers
+242,Vikram Shah,288,5,22782.94,1,Cooling Customers
+243,Rahul Gupta,252,5,51349.81,2,High-Value Loyal Customers
+244,Karan Verma,41,4,51834.97,0,Recent Customers
+245,Karan Joshi,30,4,25813.4,0,Recent Customers
+246,Vikram Verma,341,2,4215.63,3,Inactive Low-Value Customers
+247,Pooja Patel,191,4,57237.2,1,Cooling Customers
+248,Aditya Iyer,416,4,26430.77,1,Cooling Customers
+249,Arjun Kumar,32,3,37448.97,0,Recent Customers
+250,Amit Shah,82,4,23136.3,1,Cooling Customers
+251,Amit Patel,60,4,20452.37,1,Cooling Customers
+252,Rohan Iyer,81,9,90410.1,2,High-Value Loyal Customers
+253,Amit Kumar,50,8,44575.97,2,High-Value Loyal Customers
+254,Rahul Shah,494,2,6389.26,3,Inactive Low-Value Customers
+255,Vikram Joshi,5,3,12797.51,0,Recent Customers
+256,Neha Mehta,86,1,10738.55,3,Inactive Low-Value Customers
+257,Nikhil Verma,114,4,41870.53,1,Cooling Customers
+258,Rahul Joshi,31,6,54520.71,2,High-Value Loyal Customers
+259,Priya Shah,62,5,44293.19,2,High-Value Loyal Customers
+260,Isha Mehta,49,4,16973.67,1,Cooling Customers
+261,Rohan Shah,132,5,46422.27,2,High-Value Loyal Customers
+262,Pooja Verma,130,2,13987.15,3,Inactive Low-Value Customers
+263,Meera Joshi,8,4,62670.79,0,Recent Customers
+264,Priya Mehta,253,3,28135.86,1,Cooling Customers
+265,Nikhil Kumar,13,3,16141.67,0,Recent Customers
+266,Pooja Gupta,160,8,57031.27,2,High-Value Loyal Customers
+267,Rahul Verma,56,2,20760.35,1,Cooling Customers
+268,Priya Verma,185,11,103600.22,2,High-Value Loyal Customers
+269,Isha Shah,171,5,42092.62,1,Cooling Customers
+270,Aditya Iyer,1,5,47448.33,0,Recent Customers
+271,Neha Gupta,249,4,56725.36,1,Cooling Customers
+272,Nikhil Sharma,294,4,32238.06,1,Cooling Customers
+273,Aditya Gupta,123,4,52218.28,1,Cooling Customers
+274,Amit Iyer,692,1,15874.67,3,Inactive Low-Value Customers
+275,Rahul Gupta,40,3,19721.09,1,Cooling Customers
+276,Isha Patel,403,3,40285.67,1,Cooling Customers
+277,Karan Kumar,24,4,30061.54,0,Recent Customers
+278,Neha Gupta,117,7,79397.91,2,High-Value Loyal Customers
+279,Sneha Mehta,56,4,77938.24,2,High-Value Loyal Customers
+280,Meera Sharma,257,6,68440.91,2,High-Value Loyal Customers
+281,Rohan Verma,108,5,77334.49,2,High-Value Loyal Customers
+282,Nikhil Singh,41,5,52167.55,2,High-Value Loyal Customers
+283,Rohan Patel,75,5,43662.78,2,High-Value Loyal Customers
+284,Sneha Joshi,164,2,12578.53,3,Inactive Low-Value Customers
+285,Rahul Gupta,48,6,76295.01,2,High-Value Loyal Customers
+286,Neha Sharma,17,2,16663.78,0,Recent Customers
+287,Karan Mehta,72,4,22637.24,1,Cooling Customers
+288,Amit Sharma,12,5,48371.92,0,Recent Customers
+289,Sneha Iyer,16,6,25244.67,0,Recent Customers
+290,Rohan Iyer,41,2,16486.11,1,Cooling Customers
+291,Priya Iyer,75,2,16696.12,3,Inactive Low-Value Customers
+292,Amit Patel,228,2,7026.69,3,Inactive Low-Value Customers
+293,Pooja Mehta,219,3,24998.08,1,Cooling Customers
+294,Arjun Verma,20,5,58775.46,0,Recent Customers
+295,Vikram Gupta,25,8,84096.91,2,High-Value Loyal Customers
+296,Amit Kumar,9,7,76856.84,0,Recent Customers
+297,Nikhil Singh,69,5,24090.04,1,Cooling Customers
+298,Rohan Singh,304,4,64998.46,1,Cooling Customers
+299,Ananya Kumar,204,5,53939.56,2,High-Value Loyal Customers
+300,Aditya Kumar,128,3,21458.5,1,Cooling Customers
+301,Karan Gupta,54,3,38701.59,1,Cooling Customers
+302,Nikhil Joshi,300,3,40733.74,1,Cooling Customers
+303,Ananya Singh,9,5,28097.36,0,Recent Customers
+304,Isha Verma,366,3,11632.6,3,Inactive Low-Value Customers
+306,Meera Iyer,330,3,14120.58,1,Cooling Customers
+307,Rahul Gupta,94,8,92308.99,2,High-Value Loyal Customers
+308,Nikhil Mehta,529,3,6352.18,3,Inactive Low-Value Customers
+309,Neha Mehta,14,7,52106.13,0,Recent Customers
+310,Neha Sharma,26,4,10480.33,0,Recent Customers
+311,Neha Verma,23,4,29961.36,0,Recent Customers
+312,Rahul Joshi,278,5,70682.45,2,High-Value Loyal Customers
+313,Priya Joshi,33,4,35518.13,0,Recent Customers
+314,Isha Verma,56,4,17859.57,1,Cooling Customers
+315,Vikram Patel,44,2,38910.29,1,Cooling Customers
+316,Nikhil Verma,178,3,51373.83,1,Cooling Customers
+317,Pooja Mehta,20,4,21010.63,0,Recent Customers
+318,Pooja Shah,24,8,87471.08,2,High-Value Loyal Customers
+319,Priya Kumar,661,1,13703.3,3,Inactive Low-Value Customers
+320,Aditya Sharma,72,5,48231.23,2,High-Value Loyal Customers
+321,Pooja Patel,235,2,20276.22,1,Cooling Customers
+322,Ananya Gupta,28,7,99808.87,2,High-Value Loyal Customers
+323,Pooja Shah,52,5,52293.31,2,High-Value Loyal Customers
+324,Arjun Iyer,221,2,4325.21,3,Inactive Low-Value Customers
+325,Rahul Patel,27,6,58310.31,2,High-Value Loyal Customers
+326,Nikhil Sharma,119,3,40565.39,1,Cooling Customers
+327,Meera Kumar,26,3,41290.46,0,Recent Customers
+328,Aditya Kumar,363,2,17656.41,3,Inactive Low-Value Customers
+329,Rahul Patel,157,5,47983.66,2,High-Value Loyal Customers
+330,Meera Verma,32,4,26750.76,0,Recent Customers
+331,Aditya Gupta,46,5,86759.96,2,High-Value Loyal Customers
+332,Pooja Joshi,17,10,103190.64,2,High-Value Loyal Customers
+333,Rahul Iyer,136,2,10813.71,3,Inactive Low-Value Customers
+334,Pooja Iyer,254,4,23499.87,1,Cooling Customers
+335,Neha Kumar,132,4,49263.77,1,Cooling Customers
+336,Pooja Shah,10,4,20353.53,0,Recent Customers
+337,Ananya Kumar,33,5,19578.21,0,Recent Customers
+338,Karan Gupta,12,5,53626.92,0,Recent Customers
+339,Nikhil Gupta,86,3,39035.64,1,Cooling Customers
+340,Vikram Mehta,9,7,68178.45,0,Recent Customers
+341,Karan Sharma,240,4,42199.25,1,Cooling Customers
+342,Arjun Kumar,3,2,20003.9,0,Recent Customers
+343,Ananya Patel,247,1,2895.2,3,Inactive Low-Value Customers
+344,Isha Gupta,69,5,57717.13,2,High-Value Loyal Customers
+345,Arjun Shah,3,4,26708.72,0,Recent Customers
+346,Pooja Verma,97,5,69049.85,2,High-Value Loyal Customers
+347,Isha Joshi,330,6,78178.74,2,High-Value Loyal Customers
+348,Priya Kumar,154,8,107274.1,2,High-Value Loyal Customers
+349,Neha Mehta,17,4,29675.81,0,Recent Customers
+350,Isha Iyer,216,4,65021.67,1,Cooling Customers
+351,Neha Patel,28,3,33916.49,0,Recent Customers
+352,Isha Singh,49,4,56915.61,2,High-Value Loyal Customers
+353,Pooja Shah,277,3,34906.96,1,Cooling Customers
+354,Karan Verma,136,4,26807.05,1,Cooling Customers
+355,Nikhil Verma,68,3,8650.88,3,Inactive Low-Value Customers
+356,Sneha Mehta,38,2,28736.45,1,Cooling Customers
+357,Meera Iyer,237,4,30590.23,1,Cooling Customers
+358,Pooja Mehta,38,5,20001.84,0,Recent Customers
+359,Amit Kumar,138,7,50056.98,2,High-Value Loyal Customers
+360,Aditya Joshi,58,8,67330.15,2,High-Value Loyal Customers
+361,Priya Patel,58,3,24962.51,1,Cooling Customers
+362,Priya Verma,589,3,29698.69,1,Cooling Customers
+363,Sneha Verma,58,5,89505.41,2,High-Value Loyal Customers
+364,Nikhil Mehta,460,2,8928.77,3,Inactive Low-Value Customers
+365,Nikhil Shah,173,4,50186.89,1,Cooling Customers
+366,Neha Gupta,40,5,64645.44,2,High-Value Loyal Customers
+367,Pooja Joshi,20,3,37548.49,0,Recent Customers
+368,Vikram Singh,113,5,31454.35,1,Cooling Customers
+369,Rahul Mehta,432,3,22374.14,1,Cooling Customers
+370,Priya Iyer,151,2,38039.31,1,Cooling Customers
+371,Karan Kumar,27,4,34499.36,0,Recent Customers
+372,Vikram Verma,111,3,14520.11,1,Cooling Customers
+373,Aditya Patel,88,3,46524.96,1,Cooling Customers
+374,Karan Gupta,267,5,23635.98,1,Cooling Customers
+375,Rahul Shah,366,4,57625.88,1,Cooling Customers
+376,Ananya Iyer,54,5,57862.94,2,High-Value Loyal Customers
+377,Pooja Kumar,113,2,35371.13,1,Cooling Customers
+378,Karan Singh,58,6,19738.32,2,High-Value Loyal Customers
+379,Pooja Singh,276,3,11380.66,3,Inactive Low-Value Customers
+380,Nikhil Gupta,110,4,30460.74,1,Cooling Customers
+381,Priya Kumar,50,3,40291.13,1,Cooling Customers
+382,Arjun Mehta,325,2,21181.77,1,Cooling Customers
+383,Rahul Joshi,66,5,71295.32,2,High-Value Loyal Customers
+384,Aditya Mehta,187,6,59529.27,2,High-Value Loyal Customers
+385,Ananya Sharma,40,5,20053.17,0,Recent Customers
+386,Pooja Patel,234,2,12818.52,3,Inactive Low-Value Customers
+387,Ananya Patel,150,5,58332.83,2,High-Value Loyal Customers
+388,Priya Singh,431,1,7259.67,3,Inactive Low-Value Customers
+389,Isha Mehta,19,5,73574.1,0,Recent Customers
+390,Arjun Kumar,46,7,52275.74,2,High-Value Loyal Customers
+391,Arjun Mehta,44,5,30422.21,0,Recent Customers
+393,Pooja Verma,126,2,13377.17,3,Inactive Low-Value Customers
+394,Sneha Verma,147,2,32804.47,1,Cooling Customers
+395,Amit Mehta,479,1,6483.96,3,Inactive Low-Value Customers
+396,Isha Patel,158,9,71765.2,2,High-Value Loyal Customers
+397,Amit Singh,39,6,56311.18,2,High-Value Loyal Customers
+398,Aditya Iyer,69,4,38622.9,1,Cooling Customers
+399,Priya Gupta,144,2,11801.29,3,Inactive Low-Value Customers
+400,Rohan Verma,70,7,68262.99,2,High-Value Loyal Customers
+401,Isha Mehta,178,2,3713.74,3,Inactive Low-Value Customers
+402,Pooja Joshi,141,6,74786.51,2,High-Value Loyal Customers
+403,Pooja Iyer,284,6,28000.24,1,Cooling Customers
+404,Isha Mehta,486,3,61380.43,1,Cooling Customers
+405,Neha Iyer,44,5,43942.74,2,High-Value Loyal Customers
+406,Amit Gupta,61,2,13535.81,3,Inactive Low-Value Customers
+407,Isha Kumar,16,3,27329.1,0,Recent Customers
+408,Isha Verma,130,12,120006.48,2,High-Value Loyal Customers
+409,Vikram Kumar,327,4,51205.14,1,Cooling Customers
+410,Isha Verma,245,3,26962.2,1,Cooling Customers
+411,Priya Joshi,45,3,25144.82,1,Cooling Customers
+412,Meera Sharma,40,5,38283.31,0,Recent Customers
+413,Arjun Iyer,31,3,15133.84,0,Recent Customers
+414,Sneha Shah,623,1,17055.85,3,Inactive Low-Value Customers
+415,Rohan Joshi,27,5,31429.66,0,Recent Customers
+416,Vikram Joshi,7,7,59235.58,0,Recent Customers
+417,Sneha Verma,13,5,44500.74,0,Recent Customers
+418,Ananya Gupta,74,5,67547.02,2,High-Value Loyal Customers
+419,Vikram Shah,125,5,69535.67,2,High-Value Loyal Customers
+420,Nikhil Iyer,60,3,17668.92,1,Cooling Customers
+421,Isha Verma,102,3,14908.87,1,Cooling Customers
+422,Aditya Singh,16,4,49077.98,0,Recent Customers
+423,Aditya Sharma,289,6,63623.79,2,High-Value Loyal Customers
+424,Pooja Mehta,173,6,48596.77,2,High-Value Loyal Customers
+425,Rohan Patel,100,4,59800.23,2,High-Value Loyal Customers
+426,Rohan Verma,19,2,9505.23,3,Inactive Low-Value Customers
+427,Isha Kumar,58,7,59858.23,2,High-Value Loyal Customers
+428,Aditya Singh,39,10,71841.03,2,High-Value Loyal Customers
+429,Isha Gupta,432,4,23152.17,1,Cooling Customers
+430,Rahul Sharma,88,5,36030.49,2,High-Value Loyal Customers
+431,Ananya Kumar,161,3,15454.16,1,Cooling Customers
+432,Rohan Iyer,339,3,73177.16,1,Cooling Customers
+433,Rohan Iyer,62,3,20669.28,1,Cooling Customers
+434,Nikhil Kumar,185,2,17523.27,3,Inactive Low-Value Customers
+435,Meera Singh,72,5,48447.67,2,High-Value Loyal Customers
+436,Vikram Sharma,129,7,31110.6,2,High-Value Loyal Customers
+437,Isha Joshi,270,2,19258.45,3,Inactive Low-Value Customers
+438,Aditya Sharma,171,2,8659.92,3,Inactive Low-Value Customers
+439,Vikram Gupta,53,3,40933.35,1,Cooling Customers
+440,Nikhil Patel,123,6,35661.92,2,High-Value Loyal Customers
+441,Isha Kumar,305,5,30128.48,1,Cooling Customers
+442,Pooja Joshi,582,1,2393.42,3,Inactive Low-Value Customers
+443,Nikhil Mehta,114,5,33399.43,1,Cooling Customers
+444,Pooja Joshi,412,2,16039.73,3,Inactive Low-Value Customers
+445,Pooja Patel,163,5,46047.07,2,High-Value Loyal Customers
+446,Isha Gupta,47,7,37289.42,2,High-Value Loyal Customers
+447,Nikhil Gupta,363,7,74541.43,2,High-Value Loyal Customers
+448,Isha Verma,137,7,62168.84,2,High-Value Loyal Customers
+449,Aditya Kumar,2,6,46790.99,0,Recent Customers
+450,Priya Singh,334,2,34768.92,1,Cooling Customers
+451,Amit Singh,354,1,3964.35,3,Inactive Low-Value Customers
+452,Neha Mehta,89,9,86576.97,2,High-Value Loyal Customers
+453,Pooja Shah,333,3,27613.53,1,Cooling Customers
+454,Priya Kumar,50,8,72866.4,2,High-Value Loyal Customers
+455,Rahul Sharma,372,5,45627.31,1,Cooling Customers
+456,Nikhil Patel,163,9,60835.14,2,High-Value Loyal Customers
+457,Rahul Patel,95,7,68507.68,2,High-Value Loyal Customers
+458,Meera Joshi,74,6,78896.31,2,High-Value Loyal Customers
+459,Rahul Kumar,192,6,47718.03,2,High-Value Loyal Customers
+460,Priya Patel,576,2,20692.88,3,Inactive Low-Value Customers
+461,Meera Iyer,81,3,14013.06,1,Cooling Customers
+462,Isha Joshi,13,3,15552.12,0,Recent Customers
+463,Karan Sharma,33,5,26572.79,0,Recent Customers
+464,Meera Shah,100,6,55386.02,2,High-Value Loyal Customers
+465,Aditya Joshi,390,3,22169.16,1,Cooling Customers
+466,Neha Verma,525,2,8865.72,3,Inactive Low-Value Customers
+467,Isha Gupta,75,4,34773.38,1,Cooling Customers
+468,Pooja Mehta,597,4,43146.92,1,Cooling Customers
+469,Priya Mehta,59,5,69024.8,2,High-Value Loyal Customers
+470,Rahul Joshi,8,3,11169.98,0,Recent Customers
+471,Amit Iyer,14,7,93357.31,2,High-Value Loyal Customers
+472,Amit Patel,15,8,93540.22,2,High-Value Loyal Customers
+473,Meera Singh,119,2,7054.7,3,Inactive Low-Value Customers
+474,Aditya Joshi,174,6,42894.02,2,High-Value Loyal Customers
+475,Karan Singh,331,5,7778.07,1,Cooling Customers
+476,Vikram Mehta,489,3,20059.33,1,Cooling Customers
+477,Nikhil Patel,120,3,41133.48,1,Cooling Customers
+478,Aditya Kumar,48,8,59229.08,2,High-Value Loyal Customers
+479,Rohan Sharma,54,2,24328.69,1,Cooling Customers
+480,Arjun Verma,78,7,55181.44,2,High-Value Loyal Customers
+481,Vikram Gupta,113,5,62634.6,2,High-Value Loyal Customers
+482,Rahul Joshi,172,5,69724.72,2,High-Value Loyal Customers
+483,Vikram Iyer,59,4,31520.63,1,Cooling Customers
+484,Rahul Verma,115,3,39303.81,1,Cooling Customers
+485,Priya Mehta,15,6,47370.39,0,Recent Customers
+486,Vikram Shah,170,4,37884.6,1,Cooling Customers
+487,Amit Kumar,32,8,49935.29,2,High-Value Loyal Customers
+488,Amit Iyer,21,4,11613.33,0,Recent Customers
+489,Karan Kumar,327,1,14571.42,3,Inactive Low-Value Customers
+490,Nikhil Verma,94,8,62358.95,2,High-Value Loyal Customers
+491,Isha Sharma,140,4,35822.76,1,Cooling Customers
+492,Isha Singh,152,6,78806.48,2,High-Value Loyal Customers
+493,Rahul Sharma,51,4,13238.55,1,Cooling Customers
+494,Nikhil Shah,4,2,33003.92,0,Recent Customers
+495,Isha Mehta,45,2,25291.79,1,Cooling Customers
+496,Aditya Shah,42,7,38506.98,2,High-Value Loyal Customers
+497,Priya Shah,14,3,16112.42,0,Recent Customers
+498,Rahul Iyer,106,9,72854.27,2,High-Value Loyal Customers
+499,Karan Iyer,109,6,62773.19,2,High-Value Loyal Customers
+500,Ananya Mehta,230,2,31292.18,1,Cooling Customers
+501,Isha Gupta,71,1,688.41,3,Inactive Low-Value Customers
+502,Arjun Iyer,62,7,50977.13,2,High-Value Loyal Customers
+503,Pooja Joshi,57,4,32070.54,1,Cooling Customers
+504,Karan Iyer,286,6,19179.31,1,Cooling Customers
+505,Rohan Singh,133,5,34459.2,1,Cooling Customers
+506,Arjun Verma,172,3,31528.82,1,Cooling Customers
+507,Rohan Iyer,48,1,13593.75,3,Inactive Low-Value Customers
+508,Aditya Sharma,56,9,69890.52,2,High-Value Loyal Customers
+509,Rohan Kumar,313,3,15358.91,1,Cooling Customers
+510,Karan Kumar,10,5,37635.79,0,Recent Customers
+511,Priya Mehta,78,7,84542.87,2,High-Value Loyal Customers
+512,Neha Gupta,133,4,44864.97,1,Cooling Customers
+513,Arjun Shah,123,6,26164.74,2,High-Value Loyal Customers
+514,Karan Shah,9,3,19774.46,0,Recent Customers
+515,Meera Mehta,255,3,50515.29,1,Cooling Customers
+516,Rahul Singh,333,1,3816.75,3,Inactive Low-Value Customers
+517,Isha Singh,38,3,24475.64,0,Recent Customers
+518,Amit Singh,90,2,16308.79,3,Inactive Low-Value Customers
+519,Sneha Shah,131,7,80099.82,2,High-Value Loyal Customers
+520,Sneha Shah,31,3,28972.89,0,Recent Customers
+521,Arjun Gupta,258,6,49906.23,2,High-Value Loyal Customers
+522,Isha Mehta,68,3,12791.96,1,Cooling Customers
+523,Nikhil Verma,19,4,32361.24,0,Recent Customers
+524,Amit Singh,138,1,14812.65,3,Inactive Low-Value Customers
+525,Rahul Shah,98,5,45053.24,2,High-Value Loyal Customers
+526,Priya Verma,105,8,101704.61,2,High-Value Loyal Customers
+527,Isha Kumar,10,2,8436.12,0,Recent Customers
+528,Meera Mehta,156,7,37695.37,2,High-Value Loyal Customers
+529,Vikram Mehta,74,4,22262.95,1,Cooling Customers
+530,Amit Sharma,395,3,28484.44,1,Cooling Customers
+531,Priya Joshi,177,7,69145.38,2,High-Value Loyal Customers
+532,Pooja Joshi,167,5,37648.92,1,Cooling Customers
+533,Sneha Singh,33,6,41280.17,2,High-Value Loyal Customers
+534,Ananya Patel,32,5,43492.17,0,Recent Customers
+535,Amit Patel,74,6,62156.77,2,High-Value Loyal Customers
+536,Nikhil Gupta,63,7,78549.09,2,High-Value Loyal Customers
+537,Karan Kumar,197,3,31524.56,1,Cooling Customers
+538,Rahul Joshi,162,5,58289.79,2,High-Value Loyal Customers
+539,Ananya Sharma,199,5,44595.67,1,Cooling Customers
+540,Rahul Gupta,102,6,56139.02,2,High-Value Loyal Customers
+541,Sneha Mehta,3,9,94617.93,0,Recent Customers
+542,Pooja Singh,175,4,19775.09,1,Cooling Customers
+543,Nikhil Shah,248,3,31036.94,1,Cooling Customers
+544,Arjun Kumar,152,3,13782.63,1,Cooling Customers
+545,Rohan Verma,570,1,13999.18,3,Inactive Low-Value Customers
+546,Meera Verma,146,3,11115.53,3,Inactive Low-Value Customers
+547,Isha Verma,7,3,11262.85,0,Recent Customers
+548,Neha Patel,155,4,19933.79,1,Cooling Customers
+549,Nikhil Singh,17,5,33387.02,0,Recent Customers
+550,Ananya Patel,67,5,65258.57,2,High-Value Loyal Customers
+551,Meera Patel,20,6,22992.8,0,Recent Customers
+552,Meera Singh,246,2,16813.59,3,Inactive Low-Value Customers
+553,Nikhil Verma,334,3,39615.3,1,Cooling Customers
+554,Vikram Mehta,262,2,6303.42,3,Inactive Low-Value Customers
+555,Ananya Singh,55,3,16017.25,1,Cooling Customers
+556,Rahul Singh,76,8,79706.75,2,High-Value Loyal Customers
+557,Nikhil Patel,159,4,44440.28,1,Cooling Customers
+558,Sneha Joshi,12,9,102222.19,2,High-Value Loyal Customers
+559,Vikram Singh,125,5,39201.2,2,High-Value Loyal Customers
+560,Ananya Iyer,1,4,34615.11,0,Recent Customers
+561,Rahul Joshi,400,2,14063.78,3,Inactive Low-Value Customers
+562,Arjun Patel,41,6,31091.17,2,High-Value Loyal Customers
+563,Rohan Gupta,661,1,5049.32,3,Inactive Low-Value Customers
+564,Vikram Mehta,607,1,770.72,3,Inactive Low-Value Customers
+565,Meera Verma,259,3,12258.79,1,Cooling Customers
+566,Priya Verma,65,3,13763.18,1,Cooling Customers
+567,Neha Iyer,25,4,37153.11,0,Recent Customers
+568,Sneha Verma,155,8,101232.34,2,High-Value Loyal Customers
+569,Rohan Shah,163,5,17918.22,1,Cooling Customers
+570,Aditya Sharma,5,6,32565.51,0,Recent Customers
+571,Isha Verma,505,2,24945.52,1,Cooling Customers
+572,Sneha Gupta,92,7,78731.39,2,High-Value Loyal Customers
+573,Amit Shah,195,6,52152.47,2,High-Value Loyal Customers
+574,Aditya Joshi,9,8,70269.84,0,Recent Customers
+575,Nikhil Kumar,155,7,56047.07,2,High-Value Loyal Customers
+576,Sneha Patel,190,6,41589.0,2,High-Value Loyal Customers
+577,Rohan Verma,680,1,1844.39,3,Inactive Low-Value Customers
+578,Pooja Gupta,13,5,31447.59,0,Recent Customers
+579,Karan Joshi,69,3,10397.64,3,Inactive Low-Value Customers
+580,Rohan Shah,21,3,47987.61,0,Recent Customers
+581,Aditya Iyer,143,1,29905.37,3,Inactive Low-Value Customers
+582,Neha Joshi,28,6,57283.01,2,High-Value Loyal Customers
+583,Sneha Gupta,87,4,58071.08,2,High-Value Loyal Customers
+584,Aditya Joshi,58,1,9716.28,3,Inactive Low-Value Customers
+585,Karan Kumar,81,6,34018.89,2,High-Value Loyal Customers
+586,Isha Sharma,77,6,69127.94,2,High-Value Loyal Customers
+587,Pooja Patel,368,3,21243.02,1,Cooling Customers
+588,Meera Mehta,677,1,2660.27,3,Inactive Low-Value Customers
+589,Amit Singh,189,4,14006.4,1,Cooling Customers
+590,Ananya Iyer,216,5,47843.37,2,High-Value Loyal Customers
+591,Sneha Gupta,52,6,35615.16,2,High-Value Loyal Customers
+592,Meera Shah,490,2,28477.59,1,Cooling Customers
+593,Aditya Joshi,69,2,20208.01,1,Cooling Customers
+594,Rohan Sharma,86,5,58622.0,2,High-Value Loyal Customers
+595,Aditya Gupta,18,6,39340.25,0,Recent Customers
+596,Nikhil Sharma,35,11,81684.36,2,High-Value Loyal Customers
+597,Pooja Kumar,13,8,80039.66,2,High-Value Loyal Customers
+598,Aditya Patel,186,6,43925.84,2,High-Value Loyal Customers
+599,Arjun Singh,90,4,42970.12,1,Cooling Customers
+600,Rahul Joshi,74,3,26111.27,1,Cooling Customers
+601,Nikhil Kumar,12,4,42278.53,0,Recent Customers
+602,Amit Shah,40,6,38575.99,2,High-Value Loyal Customers
+603,Aditya Joshi,159,2,12506.39,3,Inactive Low-Value Customers
+604,Arjun Patel,10,6,71710.27,0,Recent Customers
+605,Ananya Joshi,113,3,25513.71,1,Cooling Customers
+606,Isha Shah,227,4,35080.82,1,Cooling Customers
+607,Neha Singh,77,8,131082.86,2,High-Value Loyal Customers
+608,Neha Sharma,317,1,12608.67,3,Inactive Low-Value Customers
+609,Aditya Sharma,51,4,58652.04,2,High-Value Loyal Customers
+610,Karan Mehta,81,8,56449.74,2,High-Value Loyal Customers
+611,Sneha Joshi,8,3,8337.62,0,Recent Customers
+612,Neha Verma,59,7,75283.65,2,High-Value Loyal Customers
+613,Neha Shah,26,7,88031.55,2,High-Value Loyal Customers
+614,Meera Verma,219,1,19456.56,3,Inactive Low-Value Customers
+615,Ananya Joshi,71,5,48512.49,2,High-Value Loyal Customers
+616,Aditya Shah,420,5,35138.77,1,Cooling Customers
+617,Priya Iyer,187,6,50415.73,2,High-Value Loyal Customers
+618,Isha Verma,18,10,108869.77,2,High-Value Loyal Customers
+619,Aditya Verma,94,4,41683.99,1,Cooling Customers
+620,Nikhil Iyer,146,3,15259.73,1,Cooling Customers
+621,Aditya Gupta,188,2,8110.03,3,Inactive Low-Value Customers
+622,Aditya Patel,2,5,26328.54,0,Recent Customers
+623,Rohan Kumar,51,5,58754.11,2,High-Value Loyal Customers
+624,Sneha Patel,268,2,9673.93,3,Inactive Low-Value Customers
+625,Isha Kumar,194,4,38147.52,1,Cooling Customers
+626,Ananya Singh,715,1,18072.91,3,Inactive Low-Value Customers
+627,Priya Joshi,123,4,47738.1,1,Cooling Customers
+628,Nikhil Shah,69,7,26255.85,2,High-Value Loyal Customers
+629,Karan Sharma,113,6,79060.82,2,High-Value Loyal Customers
+630,Nikhil Patel,10,7,68411.45,0,Recent Customers
+631,Karan Shah,719,1,5408.86,3,Inactive Low-Value Customers
+632,Neha Singh,171,3,38887.0,1,Cooling Customers
+633,Rohan Verma,345,1,5328.98,3,Inactive Low-Value Customers
+634,Amit Kumar,266,5,15013.01,1,Cooling Customers
+635,Karan Joshi,5,1,1481.89,3,Inactive Low-Value Customers
+636,Sneha Kumar,46,8,59084.47,2,High-Value Loyal Customers
+637,Karan Patel,236,8,85038.71,2,High-Value Loyal Customers
+638,Karan Verma,304,3,21067.6,1,Cooling Customers
+639,Neha Mehta,403,2,7650.04,3,Inactive Low-Value Customers
+640,Nikhil Kumar,121,5,39352.91,2,High-Value Loyal Customers
+642,Ananya Verma,130,6,23602.61,1,Cooling Customers
+643,Karan Mehta,162,4,44043.38,1,Cooling Customers
+644,Arjun Kumar,141,7,80652.17,2,High-Value Loyal Customers
+645,Ananya Singh,9,5,46187.94,0,Recent Customers
+646,Amit Patel,69,3,39644.47,1,Cooling Customers
+647,Arjun Patel,493,1,6699.77,3,Inactive Low-Value Customers
+648,Sneha Verma,9,4,50097.15,0,Recent Customers
+649,Meera Sharma,37,8,76411.57,2,High-Value Loyal Customers
+650,Vikram Sharma,114,6,73283.83,2,High-Value Loyal Customers
+651,Ananya Mehta,154,3,50620.71,1,Cooling Customers
+652,Karan Iyer,123,6,74708.89,2,High-Value Loyal Customers
+653,Arjun Singh,73,3,31493.34,1,Cooling Customers
+654,Sneha Shah,66,4,41501.8,1,Cooling Customers
+655,Rohan Sharma,112,6,38406.64,2,High-Value Loyal Customers
+656,Neha Singh,196,5,48539.3,2,High-Value Loyal Customers
+657,Nikhil Mehta,33,4,38730.45,0,Recent Customers
+658,Karan Singh,93,4,25599.82,1,Cooling Customers
+659,Priya Patel,98,6,63873.67,2,High-Value Loyal Customers
+660,Ananya Gupta,8,2,12613.9,0,Recent Customers
+661,Neha Patel,51,6,64302.67,2,High-Value Loyal Customers
+662,Karan Gupta,36,10,98098.09,2,High-Value Loyal Customers
+663,Sneha Singh,289,1,3649.09,3,Inactive Low-Value Customers
+664,Isha Singh,218,2,11939.09,3,Inactive Low-Value Customers
+665,Vikram Patel,76,2,21813.17,1,Cooling Customers
+666,Rahul Gupta,39,8,70161.66,2,High-Value Loyal Customers
+667,Rahul Shah,142,7,39865.41,2,High-Value Loyal Customers
+668,Amit Gupta,219,2,34065.43,1,Cooling Customers
+669,Aditya Iyer,356,4,31063.26,1,Cooling Customers
+670,Rahul Joshi,24,5,22291.35,0,Recent Customers
+671,Rohan Singh,244,6,91472.03,2,High-Value Loyal Customers
+672,Vikram Joshi,149,4,31635.78,1,Cooling Customers
+673,Ananya Singh,122,7,72813.85,2,High-Value Loyal Customers
+674,Pooja Gupta,80,4,44110.53,1,Cooling Customers
+675,Sneha Sharma,114,4,39236.75,1,Cooling Customers
+676,Amit Joshi,237,3,26041.46,1,Cooling Customers
+677,Pooja Iyer,111,4,35606.66,1,Cooling Customers
+678,Pooja Gupta,82,8,84753.11,2,High-Value Loyal Customers
+679,Sneha Sharma,31,4,7829.23,0,Recent Customers
+680,Ananya Verma,158,4,41129.53,1,Cooling Customers
+681,Pooja Gupta,503,2,18189.61,3,Inactive Low-Value Customers
+682,Pooja Mehta,9,4,24061.3,0,Recent Customers
+683,Priya Verma,88,4,21398.39,1,Cooling Customers
+684,Ananya Patel,207,4,37437.74,1,Cooling Customers
+685,Isha Verma,62,4,8756.83,1,Cooling Customers
+686,Isha Mehta,551,5,45233.4,1,Cooling Customers
+687,Arjun Shah,155,3,28477.77,1,Cooling Customers
+688,Rohan Patel,7,6,41173.37,0,Recent Customers
+689,Aditya Kumar,469,3,36011.11,1,Cooling Customers
+690,Vikram Joshi,152,3,34303.92,1,Cooling Customers
+691,Rahul Mehta,20,4,19491.46,0,Recent Customers
+692,Priya Sharma,69,4,24494.5,1,Cooling Customers
+693,Ananya Patel,17,8,72506.19,2,High-Value Loyal Customers
+694,Isha Kumar,374,2,23472.92,1,Cooling Customers
+695,Neha Mehta,268,4,20751.38,1,Cooling Customers
+696,Isha Mehta,173,5,19126.75,1,Cooling Customers
+697,Priya Patel,91,6,57703.16,2,High-Value Loyal Customers
+698,Karan Mehta,52,9,63264.68,2,High-Value Loyal Customers
+699,Neha Singh,35,6,41857.7,2,High-Value Loyal Customers
+700,Neha Kumar,4,5,36197.72,0,Recent Customers
+701,Arjun Mehta,75,6,61261.69,2,High-Value Loyal Customers
+702,Karan Sharma,153,6,104298.95,2,High-Value Loyal Customers
+703,Neha Shah,126,3,19138.84,1,Cooling Customers
+704,Priya Patel,283,2,17273.17,3,Inactive Low-Value Customers
+705,Priya Verma,3,7,52641.7,0,Recent Customers
+706,Amit Verma,126,2,8654.25,3,Inactive Low-Value Customers
+707,Rahul Verma,202,1,7279.78,3,Inactive Low-Value Customers
+708,Arjun Sharma,72,1,6080.85,3,Inactive Low-Value Customers
+709,Meera Verma,62,4,57847.69,2,High-Value Loyal Customers
+710,Ananya Singh,57,3,36210.66,1,Cooling Customers
+711,Vikram Verma,324,2,22355.23,1,Cooling Customers
+712,Nikhil Patel,67,5,26689.76,1,Cooling Customers
+713,Karan Mehta,210,3,15020.13,1,Cooling Customers
+714,Rohan Mehta,67,5,67578.4,2,High-Value Loyal Customers
+715,Rahul Gupta,451,2,21272.26,1,Cooling Customers
+716,Isha Joshi,364,5,48572.79,1,Cooling Customers
+717,Amit Gupta,355,3,47390.99,1,Cooling Customers
+718,Ananya Patel,418,2,6763.53,3,Inactive Low-Value Customers
+719,Karan Joshi,43,3,26243.52,1,Cooling Customers
+720,Amit Sharma,332,6,41849.54,2,High-Value Loyal Customers
+721,Vikram Patel,27,4,49341.54,0,Recent Customers
+723,Nikhil Patel,273,3,24370.27,1,Cooling Customers
+724,Pooja Mehta,107,3,31451.14,1,Cooling Customers
+725,Rahul Kumar,7,6,61083.27,0,Recent Customers
+726,Priya Verma,173,7,75631.6,2,High-Value Loyal Customers
+727,Nikhil Singh,204,2,8055.67,3,Inactive Low-Value Customers
+728,Sneha Gupta,138,7,50710.71,2,High-Value Loyal Customers
+729,Pooja Gupta,36,5,57892.01,2,High-Value Loyal Customers
+730,Meera Sharma,402,4,53749.82,1,Cooling Customers
+731,Aditya Singh,15,3,17795.6,0,Recent Customers
+732,Sneha Joshi,225,4,33600.93,1,Cooling Customers
+733,Aditya Mehta,35,6,53167.26,2,High-Value Loyal Customers
+734,Sneha Mehta,38,4,42346.17,0,Recent Customers
+735,Neha Iyer,336,2,9283.77,3,Inactive Low-Value Customers
+736,Aditya Gupta,308,7,50435.56,2,High-Value Loyal Customers
+737,Aditya Iyer,153,2,15230.1,3,Inactive Low-Value Customers
+738,Meera Verma,104,5,70953.22,2,High-Value Loyal Customers
+739,Neha Mehta,253,5,28798.74,1,Cooling Customers
+740,Arjun Joshi,84,6,58426.32,2,High-Value Loyal Customers
+741,Arjun Kumar,207,5,35443.16,1,Cooling Customers
+742,Vikram Joshi,40,7,66239.99,2,High-Value Loyal Customers
+743,Sneha Sharma,95,2,32819.25,1,Cooling Customers
+744,Vikram Sharma,28,1,11468.99,3,Inactive Low-Value Customers
+745,Aditya Singh,318,2,3108.05,3,Inactive Low-Value Customers
+746,Pooja Shah,213,3,41117.13,1,Cooling Customers
+747,Nikhil Shah,123,4,42605.56,1,Cooling Customers
+748,Pooja Shah,52,6,53582.17,2,High-Value Loyal Customers
+749,Vikram Shah,4,9,56934.99,0,Recent Customers
+750,Rohan Patel,268,1,24064.9,3,Inactive Low-Value Customers
+751,Aditya Kumar,123,7,59475.43,2,High-Value Loyal Customers
+752,Neha Kumar,86,5,43652.64,2,High-Value Loyal Customers
+753,Neha Singh,368,3,38461.27,1,Cooling Customers
+754,Priya Patel,114,4,40491.95,1,Cooling Customers
+755,Neha Singh,18,5,30408.75,0,Recent Customers
+756,Rahul Iyer,58,4,25080.21,1,Cooling Customers
+757,Meera Sharma,75,4,39011.88,1,Cooling Customers
+758,Ananya Joshi,19,4,43453.09,0,Recent Customers
+759,Pooja Joshi,5,6,62159.63,0,Recent Customers
+760,Ananya Kumar,104,6,87964.2,2,High-Value Loyal Customers
+761,Vikram Joshi,301,1,20056.58,3,Inactive Low-Value Customers
+762,Karan Verma,323,5,41294.69,1,Cooling Customers
+763,Sneha Shah,150,5,24323.13,1,Cooling Customers
+764,Arjun Shah,239,2,21369.26,1,Cooling Customers
+765,Meera Sharma,444,3,34249.05,1,Cooling Customers
+766,Karan Mehta,64,4,23435.05,1,Cooling Customers
+767,Priya Shah,54,5,26699.25,0,Recent Customers
+768,Arjun Patel,560,3,22397.33,1,Cooling Customers
+769,Meera Singh,40,9,95897.34,2,High-Value Loyal Customers
+770,Sneha Verma,101,3,28137.71,1,Cooling Customers
+771,Aditya Verma,5,6,26851.57,0,Recent Customers
+772,Karan Verma,18,5,38891.82,0,Recent Customers
+773,Isha Iyer,62,5,38722.73,2,High-Value Loyal Customers
+774,Aditya Kumar,16,8,61548.52,2,High-Value Loyal Customers
+775,Rahul Gupta,89,5,44668.71,2,High-Value Loyal Customers
+776,Meera Joshi,12,4,15290.27,0,Recent Customers
+777,Sneha Shah,389,3,26649.21,1,Cooling Customers
+778,Aditya Singh,281,1,19354.2,3,Inactive Low-Value Customers
+779,Arjun Sharma,55,1,1725.55,3,Inactive Low-Value Customers
+780,Meera Singh,427,2,8932.78,3,Inactive Low-Value Customers
+781,Sneha Mehta,117,4,20898.53,1,Cooling Customers
+782,Neha Singh,1,2,6251.21,0,Recent Customers
+783,Rahul Shah,220,4,67783.97,1,Cooling Customers
+784,Arjun Iyer,8,8,85592.57,0,Recent Customers
+785,Ananya Mehta,25,4,35578.24,0,Recent Customers
+786,Meera Iyer,83,3,47243.72,1,Cooling Customers
+787,Meera Kumar,127,4,14991.37,1,Cooling Customers
+788,Isha Iyer,89,4,34627.96,1,Cooling Customers
+789,Meera Sharma,145,4,13159.98,1,Cooling Customers
+790,Nikhil Patel,321,2,8252.1,3,Inactive Low-Value Customers
+791,Amit Verma,25,2,19635.18,0,Recent Customers
+792,Rahul Mehta,58,5,83554.62,2,High-Value Loyal Customers
+793,Karan Mehta,364,2,16166.54,3,Inactive Low-Value Customers
+794,Arjun Shah,17,5,56413.61,0,Recent Customers
+795,Karan Joshi,179,4,20668.42,1,Cooling Customers
+796,Amit Iyer,99,5,61587.07,2,High-Value Loyal Customers
+797,Rohan Gupta,138,8,99675.13,2,High-Value Loyal Customers
+798,Neha Gupta,91,5,61235.45,2,High-Value Loyal Customers
+799,Sneha Verma,34,3,28309.14,0,Recent Customers
+800,Vikram Gupta,25,3,14752.09,0,Recent Customers
+801,Pooja Patel,11,3,16438.4,0,Recent Customers
+802,Neha Joshi,22,6,86146.75,2,High-Value Loyal Customers
+805,Neha Gupta,229,4,43619.72,1,Cooling Customers
+806,Rahul Shah,64,7,51797.69,2,High-Value Loyal Customers
+807,Pooja Kumar,32,4,39875.09,0,Recent Customers
+808,Isha Patel,508,2,16546.57,3,Inactive Low-Value Customers
+809,Sneha Singh,295,1,2640.01,3,Inactive Low-Value Customers
+810,Isha Patel,207,4,33217.2,1,Cooling Customers
+811,Vikram Iyer,298,1,6209.2,3,Inactive Low-Value Customers
+812,Pooja Mehta,38,5,50579.28,2,High-Value Loyal Customers
+813,Neha Verma,9,4,55663.92,0,Recent Customers
+814,Neha Singh,66,3,24567.53,1,Cooling Customers
+815,Neha Gupta,82,4,33231.0,1,Cooling Customers
+816,Priya Verma,235,2,1565.68,3,Inactive Low-Value Customers
+817,Aditya Mehta,250,4,41068.48,1,Cooling Customers
+818,Ananya Patel,189,5,11287.66,1,Cooling Customers
+819,Amit Iyer,85,3,16642.8,1,Cooling Customers
+820,Isha Sharma,35,5,38823.01,0,Recent Customers
+821,Karan Iyer,438,1,22018.52,3,Inactive Low-Value Customers
+822,Arjun Verma,25,3,15280.6,0,Recent Customers
+823,Ananya Kumar,49,5,25622.03,0,Recent Customers
+824,Priya Joshi,48,4,21208.51,1,Cooling Customers
+825,Sneha Iyer,273,3,25136.97,1,Cooling Customers
+826,Aditya Shah,190,4,40370.52,1,Cooling Customers
+827,Pooja Gupta,21,8,83075.58,2,High-Value Loyal Customers
+828,Priya Joshi,296,3,25306.63,1,Cooling Customers
+830,Karan Shah,396,3,13311.68,1,Cooling Customers
+831,Pooja Shah,463,3,27432.17,1,Cooling Customers
+832,Arjun Iyer,683,1,13966.48,3,Inactive Low-Value Customers
+833,Arjun Patel,165,4,22178.23,1,Cooling Customers
+834,Neha Gupta,99,4,15184.06,1,Cooling Customers
+835,Priya Iyer,105,3,23640.05,1,Cooling Customers
+836,Neha Mehta,164,5,42732.8,2,High-Value Loyal Customers
+837,Pooja Gupta,182,9,54213.14,2,High-Value Loyal Customers
+838,Rohan Joshi,133,5,19023.84,1,Cooling Customers
+839,Karan Gupta,11,6,35926.77,0,Recent Customers
+840,Isha Gupta,25,4,71701.45,0,Recent Customers
+841,Priya Mehta,497,2,6487.71,3,Inactive Low-Value Customers
+842,Karan Verma,346,3,41424.12,1,Cooling Customers
+843,Priya Shah,155,3,12084.81,1,Cooling Customers
+844,Neha Sharma,15,7,45562.74,0,Recent Customers
+845,Meera Patel,160,3,24038.82,1,Cooling Customers
+846,Meera Patel,32,6,29021.38,0,Recent Customers
+847,Rahul Joshi,470,2,46771.73,1,Cooling Customers
+848,Pooja Sharma,522,3,38647.07,1,Cooling Customers
+849,Meera Iyer,300,4,52191.19,1,Cooling Customers
+850,Ananya Gupta,3,5,23878.91,0,Recent Customers
+851,Pooja Verma,88,7,79497.51,2,High-Value Loyal Customers
+852,Karan Joshi,384,3,23328.44,1,Cooling Customers
+853,Karan Verma,425,2,12878.95,3,Inactive Low-Value Customers
+854,Neha Sharma,87,4,32465.43,1,Cooling Customers
+855,Sneha Verma,287,2,10503.41,3,Inactive Low-Value Customers
+856,Vikram Mehta,152,4,32002.29,1,Cooling Customers
+857,Sneha Patel,21,4,34694.28,0,Recent Customers
+858,Sneha Iyer,620,2,16513.16,3,Inactive Low-Value Customers
+859,Ananya Sharma,232,4,48902.13,1,Cooling Customers
+860,Nikhil Singh,354,2,11508.44,3,Inactive Low-Value Customers
+861,Vikram Singh,89,6,51559.67,2,High-Value Loyal Customers
+862,Vikram Patel,11,2,50456.77,0,Recent Customers
+863,Nikhil Sharma,127,7,77801.95,2,High-Value Loyal Customers
+864,Meera Patel,294,2,33900.05,1,Cooling Customers
+865,Aditya Shah,27,6,69926.35,2,High-Value Loyal Customers
+866,Priya Singh,6,5,39225.7,0,Recent Customers
+867,Arjun Kumar,20,4,27559.18,0,Recent Customers
+868,Isha Singh,3,7,109734.75,0,Recent Customers
+869,Nikhil Gupta,214,4,29660.85,1,Cooling Customers
+870,Pooja Verma,365,1,5189.6,3,Inactive Low-Value Customers
+871,Priya Iyer,102,6,63335.55,2,High-Value Loyal Customers
+872,Isha Verma,143,3,31843.7,1,Cooling Customers
+873,Aditya Gupta,120,7,90452.42,2,High-Value Loyal Customers
+874,Pooja Verma,244,5,27884.14,1,Cooling Customers
+875,Arjun Iyer,243,4,24248.19,1,Cooling Customers
+876,Ananya Kumar,146,4,47333.96,1,Cooling Customers
+877,Isha Kumar,50,4,48383.03,2,High-Value Loyal Customers
+878,Neha Verma,4,1,1477.22,3,Inactive Low-Value Customers
+879,Arjun Shah,88,6,30755.44,2,High-Value Loyal Customers
+880,Priya Patel,6,3,18005.97,0,Recent Customers
+881,Meera Gupta,389,2,16677.13,3,Inactive Low-Value Customers
+882,Meera Iyer,286,9,85721.54,2,High-Value Loyal Customers
+883,Rahul Sharma,85,4,35918.89,1,Cooling Customers
+884,Rahul Kumar,54,4,10105.55,1,Cooling Customers
+885,Aditya Kumar,191,6,84897.9,2,High-Value Loyal Customers
+886,Meera Shah,280,6,32628.09,1,Cooling Customers
+887,Neha Sharma,9,1,6693.92,3,Inactive Low-Value Customers
+888,Arjun Joshi,298,3,38953.64,1,Cooling Customers
+889,Meera Singh,222,1,9848.58,3,Inactive Low-Value Customers
+890,Rahul Mehta,47,3,5867.67,3,Inactive Low-Value Customers
+891,Pooja Mehta,88,7,51580.65,2,High-Value Loyal Customers
+892,Meera Verma,271,4,24752.8,1,Cooling Customers
+893,Rahul Kumar,12,5,62793.11,0,Recent Customers
+894,Rohan Shah,30,6,41340.29,0,Recent Customers
+895,Aditya Verma,119,4,12829.9,1,Cooling Customers
+896,Aditya Mehta,360,4,37190.63,1,Cooling Customers
+897,Neha Singh,140,3,18014.04,1,Cooling Customers
+898,Ananya Joshi,88,5,61535.55,2,High-Value Loyal Customers
+899,Priya Iyer,258,5,48537.37,1,Cooling Customers
+900,Isha Joshi,577,1,14664.62,3,Inactive Low-Value Customers
+901,Aditya Kumar,520,3,25753.45,1,Cooling Customers
+902,Amit Sharma,165,6,43599.0,2,High-Value Loyal Customers
+903,Nikhil Sharma,158,6,30010.2,2,High-Value Loyal Customers
+904,Rahul Kumar,62,2,22627.28,1,Cooling Customers
+905,Arjun Patel,36,4,27355.63,0,Recent Customers
+906,Meera Kumar,694,1,8156.92,3,Inactive Low-Value Customers
+907,Aditya Mehta,231,1,3917.95,3,Inactive Low-Value Customers
+908,Nikhil Patel,384,2,7893.38,3,Inactive Low-Value Customers
+909,Vikram Gupta,17,5,88212.54,0,Recent Customers
+910,Sneha Shah,26,6,75809.84,2,High-Value Loyal Customers
+912,Neha Singh,202,4,51690.05,1,Cooling Customers
+913,Amit Mehta,49,6,42321.92,2,High-Value Loyal Customers
+914,Neha Gupta,116,3,37030.02,1,Cooling Customers
+915,Arjun Kumar,173,8,63872.72,2,High-Value Loyal Customers
+916,Sneha Sharma,107,5,27965.49,1,Cooling Customers
+917,Karan Gupta,356,4,49540.64,1,Cooling Customers
+918,Meera Shah,504,1,7212.59,3,Inactive Low-Value Customers
+919,Priya Sharma,291,7,59417.84,2,High-Value Loyal Customers
+920,Pooja Singh,184,3,14709.95,1,Cooling Customers
+921,Sneha Singh,103,4,32319.85,1,Cooling Customers
+922,Sneha Joshi,116,2,5469.45,3,Inactive Low-Value Customers
+923,Rohan Patel,38,5,51057.9,2,High-Value Loyal Customers
+924,Arjun Joshi,5,6,34170.23,0,Recent Customers
+925,Karan Iyer,39,5,48338.05,2,High-Value Loyal Customers
+926,Isha Singh,178,6,69735.58,2,High-Value Loyal Customers
+927,Neha Singh,126,7,21109.68,2,High-Value Loyal Customers
+928,Pooja Singh,22,6,32792.67,0,Recent Customers
+929,Neha Shah,6,7,48596.27,0,Recent Customers
+930,Pooja Shah,24,7,89658.53,2,High-Value Loyal Customers
+931,Neha Mehta,73,6,41919.18,2,High-Value Loyal Customers
+932,Aditya Sharma,45,4,32872.53,0,Recent Customers
+933,Karan Singh,78,4,33839.06,1,Cooling Customers
+934,Aditya Sharma,66,3,22155.04,1,Cooling Customers
+935,Rohan Sharma,365,3,33268.08,1,Cooling Customers
+936,Ananya Shah,177,3,63849.56,1,Cooling Customers
+937,Rahul Shah,70,6,79013.41,2,High-Value Loyal Customers
+938,Sneha Sharma,153,6,30283.56,2,High-Value Loyal Customers
+939,Meera Singh,254,4,40829.63,1,Cooling Customers
+940,Rahul Joshi,61,4,45726.15,2,High-Value Loyal Customers
+941,Priya Shah,13,7,78132.93,0,Recent Customers
+942,Meera Kumar,91,2,23621.22,1,Cooling Customers
+943,Amit Kumar,12,8,89664.73,2,High-Value Loyal Customers
+944,Arjun Kumar,79,5,27794.32,1,Cooling Customers
+945,Pooja Kumar,326,6,79942.91,2,High-Value Loyal Customers
+946,Aditya Patel,282,2,10017.91,3,Inactive Low-Value Customers
+947,Amit Kumar,42,9,79037.24,2,High-Value Loyal Customers
+948,Nikhil Verma,186,7,46221.29,2,High-Value Loyal Customers
+949,Neha Joshi,61,7,51279.26,2,High-Value Loyal Customers
+950,Nikhil Sharma,127,5,22612.54,1,Cooling Customers
+951,Neha Patel,253,5,36050.14,1,Cooling Customers
+952,Sneha Patel,11,6,65967.57,0,Recent Customers
+953,Ananya Gupta,334,4,18210.18,1,Cooling Customers
+954,Aditya Joshi,212,3,23763.29,1,Cooling Customers
+955,Ananya Sharma,240,2,21834.15,1,Cooling Customers
+956,Isha Shah,26,10,84417.37,2,High-Value Loyal Customers
+957,Rohan Kumar,146,4,28283.31,1,Cooling Customers
+958,Aditya Verma,131,7,62493.8,2,High-Value Loyal Customers
+959,Aditya Mehta,112,5,43152.45,2,High-Value Loyal Customers
+960,Vikram Singh,245,2,15043.67,3,Inactive Low-Value Customers
+961,Aditya Patel,167,5,15254.51,1,Cooling Customers
+962,Amit Kumar,143,4,19290.92,1,Cooling Customers
+963,Priya Iyer,62,2,43882.42,1,Cooling Customers
+964,Sneha Shah,54,4,51630.64,2,High-Value Loyal Customers
+965,Amit Gupta,332,4,25788.63,1,Cooling Customers
+966,Neha Gupta,712,1,426.92,3,Inactive Low-Value Customers
+967,Pooja Kumar,112,5,46550.07,2,High-Value Loyal Customers
+968,Sneha Patel,1,5,84381.24,0,Recent Customers
+969,Aditya Joshi,141,5,24113.85,1,Cooling Customers
+970,Vikram Singh,17,6,52413.04,0,Recent Customers
+971,Meera Shah,321,5,46007.74,1,Cooling Customers
+972,Priya Mehta,228,3,24880.8,1,Cooling Customers
+973,Karan Mehta,227,3,32745.85,1,Cooling Customers
+974,Karan Sharma,86,3,18655.4,1,Cooling Customers
+975,Amit Gupta,80,3,37156.16,1,Cooling Customers
+976,Rohan Mehta,202,3,23895.6,1,Cooling Customers
+977,Karan Shah,729,1,10468.5,3,Inactive Low-Value Customers
+978,Isha Kumar,21,4,25957.54,0,Recent Customers
+979,Neha Mehta,106,5,68883.28,2,High-Value Loyal Customers
+980,Rohan Gupta,75,5,70216.65,2,High-Value Loyal Customers
+981,Pooja Verma,99,9,66185.15,2,High-Value Loyal Customers
+982,Vikram Mehta,4,6,109501.44,0,Recent Customers
+983,Karan Mehta,6,4,25450.84,0,Recent Customers
+984,Amit Verma,129,3,12294.34,1,Cooling Customers
+985,Rahul Shah,9,3,21979.79,0,Recent Customers
+986,Priya Shah,379,3,10781.46,3,Inactive Low-Value Customers
+987,Pooja Kumar,165,3,20534.97,1,Cooling Customers
+988,Rahul Shah,112,8,97611.48,2,High-Value Loyal Customers
+989,Sneha Patel,42,3,23903.64,1,Cooling Customers
+990,Karan Iyer,130,4,23931.86,1,Cooling Customers
+991,Isha Sharma,232,5,54856.8,2,High-Value Loyal Customers
+992,Meera Sharma,28,6,37691.34,0,Recent Customers
+993,Arjun Shah,56,2,19223.46,1,Cooling Customers
+994,Priya Mehta,486,2,22766.84,1,Cooling Customers
+995,Isha Singh,436,2,23849.77,1,Cooling Customers
+996,Karan Sharma,190,5,47323.93,2,High-Value Loyal Customers
+997,Amit Sharma,90,8,56789.71,2,High-Value Loyal Customers
+998,Priya Gupta,196,8,100820.34,2,High-Value Loyal Customers
+999,Isha Shah,144,4,19568.16,1,Cooling Customers
+1000,Rohan Joshi,54,4,30271.75,1,Cooling Customers
