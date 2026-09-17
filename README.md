@@ -7,6 +7,12 @@
 - Power BI
 - Power Query
 - DAX
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- K-Means Clustering
 - GitHub
 
 ## 📌 Project Overview
